@@ -208,23 +208,14 @@ permalink: /
 
 </div>
 
-<!-- CONTACT SECTION -->
+<!-- CONTACT ME SECTION -->
 <div style="text-align:center; margin-top:50px; margin-bottom:60px;">
-  <h2 class="visual-contributions">Contact</h2>
+  <h2 class="visual-contributions">Contact Me</h2>
 
-  <div class="contact-icons">
-    <a href="mailto:lorena.jimenezs@ed.ac.uk">
-      <img src="/assets/icons/email.svg" alt="Email">
+  <p style="max-width:600px; margin:20px auto 0 auto; color:#333333; font-size:1rem;">
+    Send me an email at 
+    <a href="mailto:lorena.jimenezs@ed.ac.uk" style="color:#333333; text-decoration:underline;">
+      lorena.jimenezs@ed.ac.uk
     </a>
-    <a href="https://github.com/lorenajs" target="_blank">
-      <img src="/assets/icons/github.svg" alt="GitHub">
-    </a>
-    <a href="https://www.researchgate.net/profile/Lorena-Jimenez-Sanchez" target="_blank">
-      <img src="/assets/icons/researchgate.svg" alt="ResearchGate">
-    </a>
-  </div>
-
-  <p style="max-width:600px; margin:20px auto 0 auto;">
-    Or send me an email at <a href="mailto:lorena.jimenezs@ed.ac.uk">lorena.jimenezs@ed.ac.uk</a>
   </p>
 </div>
