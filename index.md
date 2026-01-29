@@ -144,11 +144,10 @@ permalink: /
   <h3 class="subsection-title">Logos</h3>
 
   <p style="max-width:600px; margin:0 auto 30px auto;">
-    Visual identities and logos created for research labs and projects.
+    Visual identities and logos created for academic labs and research projects.
   </p>
 
   <div class="logo-grid">
-
     <a class="logo-item"
        href="https://inspiremsk.stir.ac.uk/glossary/"
        target="_blank">
@@ -166,7 +165,6 @@ permalink: /
         University of Edinburgh, 2024
       </div>
     </a>
-
   </div>
 
   <!-- PRESS RELEASES -->
@@ -177,7 +175,6 @@ permalink: /
   </p>
 
   <div class="logo-grid">
-
     <a class="logo-item press"
        href="https://asociacioneco.wordpress.com/2019/03/15/como-mujer-el-hecho-de-tener-otro-color-nos-perjudica-dentro-del-propio-genero/"
        target="_blank">
@@ -186,7 +183,78 @@ permalink: /
         Asociación ECO, 2019
       </div>
     </a>
+  </div>
 
+  <!-- SCIENTIFIC PUBLICATIONS -->
+  <h3 class="subsection-title">Scientific Publications</h3>
+
+  <p style="max-width:600px; margin:0 auto 30px auto;">
+    Visual figures and illustrations produced for scientific articles and journals.
+  </p>
+
+  <div class="logo-grid">
+    <a class="logo-item"
+       href="https://kids.frontiersin.org/articles/10.3389/frym.2025.1508144"
+       target="_blank">
+      <img src="/assets/images/scientific/scientific1.jpg" alt="Publication 1">
+      <div class="logo-overlay">
+        University of Edinburgh, 2025
+      </div>
+    </a>
+
+    <a class="logo-item"
+       href="https://www.sciencedirect.com/science/article/pii/S1878929324000483"
+       target="_blank">
+      <img src="/assets/images/scientific/scientific2.jpg" alt="Publication 2">
+      <div class="logo-overlay">
+        University of Edinburgh, 2024
+      </div>
+    </a>
+
+    <a class="logo-item"
+       href="https://link.springer.com/article/10.1007/s00429-023-02725-9"
+       target="_blank">
+      <img src="/assets/images/scientific/scientific3.jpg" alt="Publication 3">
+      <div class="logo-overlay">
+        Universidad Autónoma de Madrid, 2025
+      </div>
+    </a>
+
+    <a class="logo-item"
+       href="https://journals.sagepub.com/doi/full/10.1089/aut.2021.0017"
+       target="_blank">
+      <img src="/assets/images/scientific/scientific4.jpg" alt="Publication 4">
+      <div class="logo-overlay">
+        University of Edinburgh, 2021
+      </div>
+    </a>
+
+    <a class="logo-item"
+       href="https://www.sciencedirect.com/science/article/pii/S0889159121002336?via%3Dihub"
+       target="_blank">
+      <img src="/assets/images/scientific/scientific5.jpg" alt="Publication 5">
+      <div class="logo-overlay">
+        University of Edinburgh, 2021
+      </div>
+    </a>
+
+    <a class="logo-item"
+       href="https://onlinelibrary.wiley.com/doi/10.1002/ca.23394"
+       target="_blank">
+      <img src="/assets/images/scientific/scientific6.jpg" alt="Publication 6">
+      <div class="logo-overlay">
+        Universidad Autónoma de Madrid, 2020
+      </div>
+    </a>
+
+    <a class="logo-item"
+       href="https://www.annualreviews.org/docserver/fulltext/bioeng/21/1/annurev-bioeng-062117-121036.pdf?expires=1769707178&id=id&accname=guest&checksum=B20E124D474EBCBA290978B21134EAEF"
+       target="_blank">
+      <img src="/assets/images/scientific/scientific7.jpg" alt="Publication 7">
+      <div class="logo-overlay">
+        Universidad Autónoma de Madrid, 2019
+      </div>
+    </a>
   </div>
 
 </div>
