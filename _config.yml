@@ -2,21 +2,13 @@ title: Lorena Jiménez Sánchez
 description: Scientific illustration and visual design
 url: "https://lorenajs.github.io"
 
-remote_theme: "mmistakes/minimal-mistakes"
+theme: jekyll-theme-primer
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
 markdown: kramdown
-
-collections:
-  illustration:
-    output: true
-    permalink: /illustration/:name/
-
-minimal_mistakes_skin: "default"
 
 sass:
   style: compressed
