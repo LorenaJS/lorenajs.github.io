@@ -6,7 +6,7 @@ permalink: /
 
 <style>
 :root {
-  --accent: #3FA7A0; /* sage */
+  --accent: #3FA7A0; /* teal-sage */
   --text-dark: #333333;
   --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -16,6 +16,60 @@ body {
   font-family: var(--font-sans);
   line-height: 1.6;
   color: var(--text-dark);
+  background-color: #fdfdfd;
+  margin: 0;
+}
+
+/* CONTAINER SECTIONS */
+.section {
+  max-width: 960px;
+  margin: 0 auto 60px auto;
+  padding: 0 20px;
+}
+
+/* BIO */
+.bio-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.bio-img:hover {
+  transform: scale(1.05);
+}
+
+.bio-text {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* HEADINGS */
+.visual-contributions {
+  color: var(--accent);
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.subsection-title {
+  color: var(--text-dark);
+  font-size: 1.6rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* PARAGRAPHS */
+p {
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  font-size: 1rem;
+  text-align: center;
 }
 
 /* CONTACT ICONS */
@@ -42,7 +96,7 @@ body {
 .logo-grid {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
   flex-wrap: wrap;
   margin-top: 30px;
 }
@@ -63,9 +117,7 @@ body {
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  display: block;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 /* Hover overlay */
@@ -84,7 +136,6 @@ body {
   color: var(--text-dark);
   opacity: 0;
   transition: opacity 0.3s ease;
-  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
 }
 
 .logo-item:hover img {
@@ -96,41 +147,11 @@ body {
   opacity: 1;
 }
 
-/* Section Titles */
-.visual-contributions {
-  color: var(--accent);
-  font-size: 2rem;
-  margin-bottom: 30px;
-}
-
-.subsection-title {
-  color: black;
-  font-size: 1.5rem;
-  margin-top: 50px;
-  margin-bottom: 15px;
-}
-
-/* Paragraph styling */
-p {
-  max-width: 600px;
-  margin: 0 auto 30px auto;
-  font-size: 1rem;
-}
-
-/* BIO IMAGE */
-.bio-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-/* CONTACT ME */
+/* CONTACT SECTION */
 .contact-section a {
   color: var(--text-dark);
   text-decoration: underline;
+  font-weight: 500;
 }
 
 @media (max-width: 500px) {
@@ -151,29 +172,51 @@ p {
 </style>
 
 <!-- BIO -->
-<div style="text-align:center; margin-top:40px;">
+<div class="section" style="text-align:center; margin-top:40px;">
   <img class="bio-img" src="/assets/images/bio/bio.jpg" alt="Lorena Jiménez Sánchez" />
-  <h1 style="color:var(--accent); margin-bottom:5px;">Lorena Jiménez Sánchez</h1>
-  <p>
-    Researcher and visual storyteller with a background in neuroscience (MSc, PhD).
+  <h1 style="color:var(--accent); margin-bottom:10px;">Lorena Jiménez Sánchez</h1>
+  <p class="bio-text">
+    Researcher and visual storyteller with a background in neuroscience (MSc, PhD). 
     Passionate about transforming complex ideas into visually engaging, accessible content.
   </p>
 </div>
 
 <!-- VISUAL CONTRIBUTIONS -->
-<div style="text-align:center; margin-top:50px; margin-bottom:60px;">
+<div class="section">
   <h2 class="visual-contributions">Visual Contributions</h2>
 
   <!-- Scientific Publications -->
   <h3 class="subsection-title">Scientific Publications</h3>
   <p>Visual figures and illustrations produced for scientific articles and journals.</p>
   <div class="logo-grid">
-    {% for i in (1..7) %}
-    <a class="logo-item scientific" href="#" target="_blank">
-      <img src="/assets/images/scientific/scientific{{ i }}.jpg" alt="Publication {{ i }}">
-      <div class="logo-overlay">Add snippet for publication {{ i }}</div>
+    <a class="logo-item scientific" href="https://kids.frontiersin.org/articles/10.3389/frym.2025.1508144" target="_blank">
+      <img src="/assets/images/scientific/scientific1.jpg" alt="Publication 1">
+      <div class="logo-overlay">University of Edinburgh, 2025</div>
     </a>
-    {% endfor %}
+    <a class="logo-item scientific" href="https://www.sciencedirect.com/science/article/pii/S1878929324000483" target="_blank">
+      <img src="/assets/images/scientific/scientific2.jpg" alt="Publication 2">
+      <div class="logo-overlay">University of Edinburgh, 2024</div>
+    </a>
+    <a class="logo-item scientific" href="https://link.springer.com/article/10.1007/s00429-023-02725-9" target="_blank">
+      <img src="/assets/images/scientific/scientific3.jpg" alt="Publication 3">
+      <div class="logo-overlay">Universidad Autónoma de Madrid, 2024</div>
+    </a>
+    <a class="logo-item scientific" href="https://journals.sagepub.com/doi/full/10.1089/aut.2021.0017" target="_blank">
+      <img src="/assets/images/scientific/scientific4.jpg" alt="Publication 4">
+      <div class="logo-overlay">University of Edinburgh, 2021</div>
+    </a>
+    <a class="logo-item scientific" href="https://www.sciencedirect.com/science/article/pii/S0889159121002336" target="_blank">
+      <img src="/assets/images/scientific/scientific5.jpg" alt="Publication 5">
+      <div class="logo-overlay">University of Edinburgh, 2021</div>
+    </a>
+    <a class="logo-item scientific" href="https://onlinelibrary.wiley.com/doi/10.1002/ca.23394" target="_blank">
+      <img src="/assets/images/scientific/scientific6.jpg" alt="Publication 6">
+      <div class="logo-overlay">Universidad Autónoma de Madrid, 2020</div>
+    </a>
+    <a class="logo-item scientific" href="https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-062117-121036" target="_blank">
+      <img src="/assets/images/scientific/scientific7.jpg" alt="Publication 7">
+      <div class="logo-overlay">Universidad Autónoma de Madrid, 2019</div>
+    </a>
   </div>
 
   <!-- Logos -->
@@ -206,10 +249,7 @@ p {
 </div>
 
 <!-- CONTACT ME -->
-<div class="contact-section" style="text-align:center; margin-top:50px; margin-bottom:60px;">
+<div class="section contact-section">
   <h2 class="visual-contributions">Contact Me</h2>
-  <p>
-    Send me an email at 
-    <a href="mailto:lorena.jimenezs@ed.ac.uk">lorena.jimenezs@ed.ac.uk</a>
-  </p>
+  <p>Send me an email at <a href="mailto:lorena.jimenezs@ed.ac.uk">lorena.jimenezs@ed.ac.uk</a></p>
 </div>
