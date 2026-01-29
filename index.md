@@ -9,6 +9,7 @@ permalink: /
   --accent: #3FA7A0; /* teal-sage */
   --text-dark: #333333;
   --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --section-bg: #f5fdfc; /* light pastel teal */
 }
 
 /* BODY FONT */
@@ -16,7 +17,7 @@ body {
   font-family: var(--font-sans);
   line-height: 1.6;
   color: var(--text-dark);
-  background-color: #fdfdfd;
+  background-color: #ffffff;
   margin: 0;
 }
 
@@ -24,10 +25,16 @@ body {
 .section {
   max-width: 960px;
   margin: 0 auto 60px auto;
-  padding: 0 20px;
+  padding: 40px 20px;
+  border-radius: 12px;
 }
 
-/* BIO */
+/* BIO & CONTACT SECTIONS BACKGROUND */
+.bio-section, .contact-section {
+  background-color: var(--section-bg);
+}
+
+/* BIO IMAGE */
 .bio-img {
   width: 140px;
   height: 140px;
@@ -41,6 +48,7 @@ body {
   transform: scale(1.05);
 }
 
+/* BIO TEXT */
 .bio-text {
   max-width: 600px;
   margin: 0 auto;
@@ -147,7 +155,7 @@ p {
   opacity: 1;
 }
 
-/* CONTACT SECTION */
+/* CONTACT LINK */
 .contact-section a {
   color: var(--text-dark);
   text-decoration: underline;
@@ -172,7 +180,7 @@ p {
 </style>
 
 <!-- BIO -->
-<div class="section" style="text-align:center; margin-top:40px;">
+<div class="section bio-section" style="text-align:center; margin-top:40px;">
   <img class="bio-img" src="/assets/images/bio/bio.jpg" alt="Lorena Jiménez Sánchez" />
   <h1 style="color:var(--accent); margin-bottom:10px;">Lorena Jiménez Sánchez</h1>
   <p class="bio-text">
