@@ -6,7 +6,7 @@ permalink: /
 
 <style>
 :root {
-  --accent: #3FA7A0; /* teal-sage */
+  --accent: #3FA7A0;
 }
 
 /* CONTACT ICONS */
@@ -18,27 +18,25 @@ permalink: /
 }
 
 .contact-icons img {
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   opacity: 0.75;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .contact-icons img:hover {
   opacity: 1;
-  transform: translateY(-2px);
 }
 
-/* LOGO GRID */
+/* LOGOS */
 .logo-grid {
   display: flex;
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
-/* LOGO + TOOLTIP */
 .logo-item {
   position: relative;
 }
@@ -51,28 +49,27 @@ permalink: /
 
 .logo-item img:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
 }
 
 /* TOOLTIP */
-.logo-item .tooltip {
+.tooltip {
   visibility: hidden;
   opacity: 0;
   width: 220px;
-  background-color: #ffffff;
+  background: white;
   color: #333;
   text-align: center;
-  padding: 10px 12px;
+  padding: 10px;
   border-radius: 8px;
   position: absolute;
-  bottom: -75px;
+  top: 105%;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
   font-size: 0.85rem;
-  line-height: 1.3;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
   transition: opacity 0.3s ease;
-  z-index: 10;
+  z-index: 20;
 }
 
 .logo-item:hover .tooltip {
@@ -82,7 +79,7 @@ permalink: /
 </style>
 
 <!-- BIO -->
-<div style="text-align:center; margin-top:40px; margin-bottom:40px;">
+<div style="text-align:center; margin-top:40px;">
 
   <img src="/assets/images/bio/bio.jpg"
        alt="Lorena Jiménez Sánchez"
@@ -92,7 +89,6 @@ permalink: /
     Lorena Jiménez Sánchez
   </h1>
 
-  <!-- CONTACT ICONS -->
   <div class="contact-icons">
     <a href="mailto:your@email.com">
       <img src="/assets/icons/email.svg" alt="Email">
@@ -100,9 +96,7 @@ permalink: /
     <a href="https://github.com/lorenajs" target="_blank">
       <img src="/assets/icons/github.svg" alt="GitHub">
     </a>
-    <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-      <img src="/assets/icons/linkedin.svg" alt="LinkedIn">
-    </a>
+    <!-- REMOVE LinkedIn here if icon not uploaded -->
   </div>
 
   <p style="max-width:600px; margin:0 auto;">
@@ -111,7 +105,11 @@ permalink: /
     content that connects science and people.
   </p>
 
-  <!-- LOGOS DIRECTLY UNDER BIO -->
+</div>
+
+<!-- LOGOS SECTION -->
+<div style="text-align:center; margin-top:40px; margin-bottom:60px;">
+
   <div class="logo-grid">
 
     <div class="logo-item">
