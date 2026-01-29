@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: ""
+permalink: /
 ---
 
 <!-- BIO SECTION -->
@@ -19,7 +20,7 @@ title: ""
 ---
 
 <!-- VISUAL CONTRIBUTIONS SECTION -->
-## Visual Contributions
+<h2 style="text-align:center; margin-top:50px;">Visual Contributions</h2>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-top: 20px;">
 
