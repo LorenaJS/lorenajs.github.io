@@ -5,6 +5,29 @@ permalink: /
 ---
 
 <style>
+:root {
+  --accent: #4FB6B0; /* teal-sage */
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin: 15px 0 30px 0;
+}
+
+.contact-icons img {
+  width: 28px;
+  height: 28px;
+  opacity: 0.75;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.contact-icons img:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
 .logo-grid {
   display: flex;
   justify-content: center;
@@ -24,16 +47,29 @@ permalink: /
 }
 </style>
 
-<!-- BIO SECTION -->
-<div style="text-align: center; margin-top: 40px; margin-bottom: 50px;">
+<!-- BIO -->
+<div style="text-align:center; margin-top:40px; margin-bottom:50px;">
 
   <img src="/assets/images/bio/bio.jpg"
        alt="Lorena Jiménez Sánchez"
        style="width:120px; height:120px; border-radius:50%; object-fit:cover; margin-bottom:20px;" />
 
-  <h1 style="color:#66CDAA; margin-bottom:10px;">
+  <h1 style="color:var(--accent); margin-bottom:5px;">
     Lorena Jiménez Sánchez
   </h1>
+
+  <!-- CONTACT ICONS -->
+  <div class="contact-icons">
+    <a href="mailto:lorena.jimenezs@ed.ac.uk">
+      <img src="/assets/icons/email.svg" alt="Email">
+    </a>
+    <a href="https://github.com/lorenajs" target="_blank">
+      <img src="/assets/icons/github.svg" alt="GitHub">
+    </a>
+    <a href="https://www.researchgate.net/profile/lorena-jimenez-sanchez" target="_blank">
+      <img src="/assets/icons/researchgate.svg" alt="ResearchGate">
+    </a>
+  </div>
 
   <p style="max-width:600px; margin:0 auto;">
     Researcher and visual storyteller with a background in neuroscience (MSc, PhD).
@@ -52,15 +88,15 @@ permalink: /
     Visual Contributions
   </h2>
 
-  <!-- LAB LOGO CREATIONS -->
+  <!-- LAB LOGOS -->
   <div>
 
-    <h3 style="color:#66CDAA; margin-bottom:10px;">
+    <h3 style="color:var(--accent); margin-bottom:10px;">
       Lab Logo Creations
     </h3>
 
     <p style="max-width:600px; margin:0 auto 30px auto;">
-      Custom logos and visual identities designed for research labs and scientific initiatives.
+      Custom logos and visual identities designed for research labs and initiatives.
     </p>
 
     <div class="logo-grid">
