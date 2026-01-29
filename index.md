@@ -6,7 +6,7 @@ permalink: /
 
 <style>
 :root {
-  --accent: #3FA7A0; /* teal-sage */
+  --accent: #3FA7A0;
 }
 
 /* CONTACT ICONS */
@@ -29,7 +29,7 @@ permalink: /
   transform: translateY(-2px);
 }
 
-/* LOGO GRID */
+/* LOGO SECTION */
 .logo-grid {
   display: flex;
   justify-content: center;
@@ -38,51 +38,49 @@ permalink: /
   margin-top: 30px;
 }
 
-/* LOGO + TOOLTIP */
 .logo-item {
   position: relative;
+  width: 150px;
+  height: 150px;
 }
 
 .logo-item img {
-  width: 150px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
-.logo-item img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-}
-
-/* TOOLTIP */
-.logo-item .tooltip {
-  visibility: hidden;
-  opacity: 0;
-  width: 220px;
-  background-color: #ffffff;
-  color: #333;
-  text-align: center;
-  padding: 10px 12px;
-  border-radius: 8px;
+/* OVERLAY TEXT */
+.logo-overlay {
   position: absolute;
-  bottom: -75px;
-  left: 50%;
-  transform: translateX(-50%);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  inset: 0;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
   font-size: 0.85rem;
   line-height: 1.3;
+  opacity: 0;
   transition: opacity 0.3s ease;
-  z-index: 10;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
 }
 
-.logo-item:hover .tooltip {
-  visibility: visible;
+.logo-item:hover img {
+  opacity: 0;
+}
+
+.logo-item:hover .logo-overlay {
   opacity: 1;
 }
 </style>
 
 <!-- BIO -->
-<div style="text-align:center; margin-top:40px; margin-bottom:40px;">
+<div style="text-align:center; margin-top:40px;">
 
   <img src="/assets/images/bio/bio.jpg"
        alt="Lorena Jiménez Sánchez"
@@ -92,7 +90,6 @@ permalink: /
     Lorena Jiménez Sánchez
   </h1>
 
-  <!-- CONTACT ICONS -->
   <div class="contact-icons">
     <a href="mailto:lorena.jimenezs@ed.ac.uk">
       <img src="/assets/icons/email.svg" alt="Email">
@@ -111,28 +108,38 @@ permalink: /
     content that connects science and people.
   </p>
 
-  <!-- LOGOS DIRECTLY UNDER BIO -->
+</div>
+
+<!-- VISUAL CONTRIBUTIONS -->
+<div style="text-align:center; margin-top:50px; margin-bottom:60px;">
+
+  <h2>Visual Contributions</h2>
+
+  <h3 style="color:var(--accent); margin-top:30px;">
+    Lab Logo Creations
+  </h3>
+
+  <p style="max-width:600px; margin:0 auto 30px auto;">
+    Custom logos and visual identities designed for research labs and scientific initiatives.
+  </p>
+
   <div class="logo-grid">
 
-    <div class="logo-item">
-      <a href="https://richardsonlab.ppls.ed.ac.uk/lab-values/" target="_blank">
-        <img src="/assets/images/logos/logo1.jpg" alt="Richardson Lab logo">
-      </a>
-      <div class="tooltip">
+    <a class="logo-item" href="https://richardsonlab.ppls.ed.ac.uk/lab-values/" target="_blank">
+      <img src="/assets/images/logos/logo1.jpg" alt="Richardson Lab logo">
+      <div class="logo-overlay">
         <strong>Richardson Lab logo</strong><br>
         University of Edinburgh
       </div>
-    </div>
+    </a>
 
-    <div class="logo-item">
-      <a href="https://inspiremsk.stir.ac.uk/glossary/" target="_blank">
-        <img src="/assets/images/logos/logo2.jpg" alt="INSPIRE MSK logo">
-      </a>
-      <div class="tooltip">
+    <a class="logo-item" href="https://inspiremsk.stir.ac.uk/glossary/" target="_blank">
+      <img src="/assets/images/logos/logo2.jpg" alt="INSPIRE MSK logo">
+      <div class="logo-overlay">
         <strong>INSPIRE MSK project</strong><br>
         University of Stirling
       </div>
-    </div>
+    </a>
 
   </div>
 
