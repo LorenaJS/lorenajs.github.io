@@ -32,35 +32,39 @@ permalink: /
 /* LOGO / CARD GRID */
 .logo-grid {
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  justify-content: center; /* center all items */
+  gap: 50px;               /* uniform spacing */
   flex-wrap: wrap;
   margin-top: 30px;
 }
 
 .logo-item {
   position: relative;
-  width: 150px;
-  height: 180px; /* taller container to fit non-square logos */
+  width: 160px;  /* uniform card width */
+  height: 160px; /* uniform card height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
 }
 
 .logo-item img {
   max-width: 100%;
   max-height: 100%;
-  margin: auto;
   display: block;
-  border-radius: 10px; /* default for logos */
-  transition: opacity 0.3s ease;
+  border-radius: 10px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-/* Make press release images circular */
+/* Circular press release images */
 .logo-item.press img {
   border-radius: 50%;
   object-fit: cover;
+  width: 140px;
+  height: 140px;
 }
 
-/* OVERLAY TEXT */
+/* Hover overlay */
 .logo-overlay {
   position: absolute;
   inset: 0;
@@ -73,7 +77,7 @@ permalink: /
   padding: 12px;
   font-size: 0.85rem;
   line-height: 1.3;
-  color: #333333;  /* dark gray overlay text */
+  color: #333;  /* dark gray */
   opacity: 0;
   transition: opacity 0.3s ease;
   box-shadow: 0 8px 18px rgba(0,0,0,0.15);
@@ -81,6 +85,7 @@ permalink: /
 
 .logo-item:hover img {
   opacity: 0;
+  transform: scale(1.05);
 }
 
 .logo-item:hover .logo-overlay {
@@ -139,7 +144,7 @@ permalink: /
   <h3 class="subsection-title">Logos</h3>
 
   <p style="max-width:600px; margin:0 auto 30px auto;">
-    Visual identities and logos created for academic labs and research projects.
+    Visual identities and logos created for research labs and projects.
   </p>
 
   <div class="logo-grid">
