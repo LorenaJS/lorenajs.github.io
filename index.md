@@ -114,24 +114,11 @@ permalink: /
     Lorena Jiménez Sánchez
   </h1>
 
-  <p style="max-width:600px; margin:0 auto;">
+  <p style="max-width:600px; margin:0 auto 30px auto;">
     Researcher and visual storyteller with a background in neuroscience (MSc, PhD).
     Passionate about transforming complex ideas into visually engaging, accessible
     content that connects science and people.
   </p>
-
-  <!-- CONTACT ICONS BELOW BIO TEXT -->
-  <div class="contact-icons">
-    <a href="mailto:lorena.jimenezs@ed.ac.uk">
-      <img src="/assets/icons/email.svg" alt="Email">
-    </a>
-    <a href="https://github.com/lorenajs" target="_blank">
-      <img src="/assets/icons/github.svg" alt="GitHub">
-    </a>
-    <a href="https://www.researchgate.net/profile/Lorena-Jimenez-Sanchez" target="_blank">
-      <img src="/assets/icons/researchgate.svg" alt="ResearchGate">
-    </a>
-  </div>
 
 </div>
 
@@ -139,6 +126,50 @@ permalink: /
 <div style="text-align:center; margin-top:50px; margin-bottom:60px;">
 
   <h2 class="visual-contributions">Visual Contributions</h2>
+
+  <!-- SCIENTIFIC PUBLICATIONS -->
+  <h3 class="subsection-title">Scientific Publications</h3>
+
+  <p style="max-width:600px; margin:0 auto 30px auto;">
+    Visual figures and illustrations produced for scientific articles and journals.
+  </p>
+
+  <div class="logo-grid">
+    <a class="logo-item" href="#" target="_blank">
+      <img src="/assets/images/scientific/scientific1.jpg" alt="Publication 1">
+      <div class="logo-overlay">Publication 1 snippet</div>
+    </a>
+
+    <a class="logo-item" href="#" target="_blank">
+      <img src="/assets/images/scientific/scientific2.jpg" alt="Publication 2">
+      <div class="logo-overlay">Publication 2 snippet</div>
+    </a>
+
+    <a class="logo-item" href="#" target="_blank">
+      <img src="/assets/images/scientific/scientific3.jpg" alt="Publication 3">
+      <div class="logo-overlay">Publication 3 snippet</div>
+    </a>
+
+    <a class="logo-item" href="#" target="_blank">
+      <img src="/assets/images/scientific/scientific4.jpg" alt="Publication 4">
+      <div class="logo-overlay">Publication 4 snippet</div>
+    </a>
+
+    <a class="logo-item" href="#" target="_blank">
+      <img src="/assets/images/scientific/scientific5.jpg" alt="Publication 5">
+      <div class="logo-overlay">Publication 5 snippet</div>
+    </a>
+
+    <a class="logo-item" href="#" target="_blank">
+      <img src="/assets/images/scientific/scientific6.jpg" alt="Publication 6">
+      <div class="logo-overlay">Publication 6 snippet</div>
+    </a>
+
+    <a class="logo-item" href="#" target="_blank">
+      <img src="/assets/images/scientific/scientific7.jpg" alt="Publication 7">
+      <div class="logo-overlay">Publication 7 snippet</div>
+    </a>
+  </div>
 
   <!-- LOGOS -->
   <h3 class="subsection-title">Logos</h3>
@@ -148,22 +179,14 @@ permalink: /
   </p>
 
   <div class="logo-grid">
-    <a class="logo-item"
-       href="https://inspiremsk.stir.ac.uk/glossary/"
-       target="_blank">
+    <a class="logo-item" href="https://inspiremsk.stir.ac.uk/glossary/" target="_blank">
       <img src="/assets/images/logos/logo2.jpg" alt="University of Stirling">
-      <div class="logo-overlay">
-        University of Stirling, 2026
-      </div>
+      <div class="logo-overlay">University of Stirling, 2026</div>
     </a>
     
-    <a class="logo-item"
-       href="https://richardsonlab.ppls.ed.ac.uk/lab-values/"
-       target="_blank">
+    <a class="logo-item" href="https://richardsonlab.ppls.ed.ac.uk/lab-values/" target="_blank">
       <img src="/assets/images/logos/logo1.jpg" alt="University of Edinburgh">
-      <div class="logo-overlay">
-        University of Edinburgh, 2024
-      </div>
+      <div class="logo-overlay">University of Edinburgh, 2024</div>
     </a>
   </div>
 
@@ -179,82 +202,29 @@ permalink: /
        href="https://asociacioneco.wordpress.com/2019/03/15/como-mujer-el-hecho-de-tener-otro-color-nos-perjudica-dentro-del-propio-genero/"
        target="_blank">
       <img src="/assets/images/press/press1.jpg" alt="Asociación ECO">
-      <div class="logo-overlay">
-        Asociación ECO, 2019
-      </div>
+      <div class="logo-overlay">Asociación ECO, 2019</div>
     </a>
   </div>
 
-  <!-- SCIENTIFIC PUBLICATIONS -->
-  <h3 class="subsection-title">Scientific Publications</h3>
+</div>
 
-  <p style="max-width:600px; margin:0 auto 30px auto;">
-    Visual figures and illustrations produced for scientific articles and journals.
+<!-- CONTACT SECTION -->
+<div style="text-align:center; margin-top:50px; margin-bottom:60px;">
+  <h2 class="visual-contributions">Contact</h2>
+
+  <div class="contact-icons">
+    <a href="mailto:lorena.jimenezs@ed.ac.uk">
+      <img src="/assets/icons/email.svg" alt="Email">
+    </a>
+    <a href="https://github.com/lorenajs" target="_blank">
+      <img src="/assets/icons/github.svg" alt="GitHub">
+    </a>
+    <a href="https://www.researchgate.net/profile/Lorena-Jimenez-Sanchez" target="_blank">
+      <img src="/assets/icons/researchgate.svg" alt="ResearchGate">
+    </a>
+  </div>
+
+  <p style="max-width:600px; margin:20px auto 0 auto;">
+    Or send me an email at <a href="mailto:lorena.jimenezs@ed.ac.uk">lorena.jimenezs@ed.ac.uk</a>
   </p>
-
-  <div class="logo-grid">
-    <a class="logo-item"
-       href="https://kids.frontiersin.org/articles/10.3389/frym.2025.1508144"
-       target="_blank">
-      <img src="/assets/images/scientific/scientific1.jpg" alt="Publication 1">
-      <div class="logo-overlay">
-        University of Edinburgh, 2025
-      </div>
-    </a>
-
-    <a class="logo-item"
-       href="https://www.sciencedirect.com/science/article/pii/S1878929324000483"
-       target="_blank">
-      <img src="/assets/images/scientific/scientific2.jpg" alt="Publication 2">
-      <div class="logo-overlay">
-        University of Edinburgh, 2024
-      </div>
-    </a>
-
-    <a class="logo-item"
-       href="https://link.springer.com/article/10.1007/s00429-023-02725-9"
-       target="_blank">
-      <img src="/assets/images/scientific/scientific3.jpg" alt="Publication 3">
-      <div class="logo-overlay">
-        Universidad Autónoma de Madrid, 2025
-      </div>
-    </a>
-
-    <a class="logo-item"
-       href="https://journals.sagepub.com/doi/full/10.1089/aut.2021.0017"
-       target="_blank">
-      <img src="/assets/images/scientific/scientific4.jpg" alt="Publication 4">
-      <div class="logo-overlay">
-        University of Edinburgh, 2021
-      </div>
-    </a>
-
-    <a class="logo-item"
-       href="https://www.sciencedirect.com/science/article/pii/S0889159121002336?via%3Dihub"
-       target="_blank">
-      <img src="/assets/images/scientific/scientific5.jpg" alt="Publication 5">
-      <div class="logo-overlay">
-        University of Edinburgh, 2021
-      </div>
-    </a>
-
-    <a class="logo-item"
-       href="https://onlinelibrary.wiley.com/doi/10.1002/ca.23394"
-       target="_blank">
-      <img src="/assets/images/scientific/scientific6.jpg" alt="Publication 6">
-      <div class="logo-overlay">
-        Universidad Autónoma de Madrid, 2020
-      </div>
-    </a>
-
-    <a class="logo-item"
-       href="https://www.annualreviews.org/docserver/fulltext/bioeng/21/1/annurev-bioeng-062117-121036.pdf?expires=1769707178&id=id&accname=guest&checksum=B20E124D474EBCBA290978B21134EAEF"
-       target="_blank">
-      <img src="/assets/images/scientific/scientific7.jpg" alt="Publication 7">
-      <div class="logo-overlay">
-        Universidad Autónoma de Madrid, 2019
-      </div>
-    </a>
-  </div>
-
 </div>
