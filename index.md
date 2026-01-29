@@ -137,37 +137,37 @@ permalink: /
   <div class="logo-grid">
     <a class="logo-item" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific1.jpg" alt="Publication 1">
-      <div class="logo-overlay">Publication 1 snippet</div>
+      <div class="logo-overlay">University of Edinburgh, 2025</div>
     </a>
 
     <a class="logo-item" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific2.jpg" alt="Publication 2">
-      <div class="logo-overlay">Publication 2 snippet</div>
+      <div class="logo-overlay">University of Edinburgh, 2024</div>
     </a>
 
     <a class="logo-item" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific3.jpg" alt="Publication 3">
-      <div class="logo-overlay">Publication 3 snippet</div>
+      <div class="logo-overlay">Universidad Autónoma de Madrid, 2024</div>
     </a>
 
     <a class="logo-item" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific4.jpg" alt="Publication 4">
-      <div class="logo-overlay">Publication 4 snippet</div>
+      <div class="logo-overlay">University of Edinburgh, 2021</div>
     </a>
 
     <a class="logo-item" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific5.jpg" alt="Publication 5">
-      <div class="logo-overlay">Publication 5 snippet</div>
+      <div class="logo-overlay">University of Edinburgh, 2021</div>
     </a>
 
     <a class="logo-item" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific6.jpg" alt="Publication 6">
-      <div class="logo-overlay">Publication 6 snippet</div>
+      <div class="logo-overlay">Universidad Autónoma de Madrid, 2020</div>
     </a>
 
     <a class="logo-item" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific7.jpg" alt="Publication 7">
-      <div class="logo-overlay">Publication 7 snippet</div>
+      <div class="logo-overlay">Universidad Autónoma de Madrid, 2019</div>
     </a>
   </div>
 
