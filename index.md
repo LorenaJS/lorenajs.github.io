@@ -1,8 +1,11 @@
 ---
 layout: splash
 title: ""
+
+intro:
+  - image_path: /assets/images/bio/bio.JPG
+    alt: "Portrait"
+    excerpt: >
+     Researcher and visual storyteller with a background in neuroscience (MSc, PhD). Passionate about transforming complex ideas into visually engaging, accessible content that connects science and people.
+
 ---
-
-## Scientific illustration & visual communication
-
-If you can read this, Jekyll is working.
