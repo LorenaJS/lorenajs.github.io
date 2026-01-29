@@ -136,37 +136,37 @@ permalink: /
   </p>
 
   <div class="logo-grid">
-    <a class="logo-item scientific" href="#" target="_blank">
+    <a class="logo-item scientific" href="https://kids.frontiersin.org/articles/10.3389/frym.2025.1508144" target="_blank">
       <img src="/assets/images/scientific/scientific1.jpg" alt="Publication 1">
       <div class="logo-overlay">University of Edinburgh, 2025</div>
     </a>
 
-    <a class="logo-item scientific" href="#" target="_blank">
+    <a class="logo-item scientific" href="https://www.sciencedirect.com/science/article/pii/S1878929324000483" target="_blank">
       <img src="/assets/images/scientific/scientific2.jpg" alt="Publication 2">
       <div class="logo-overlay">University of Edinburgh, 2024</div>
     </a>
 
-    <a class="logo-item scientific" href="#" target="_blank">
+    <a class="logo-item scientific" href="https://link.springer.com/article/10.1007/s00429-023-02725-9" target="_blank">
       <img src="/assets/images/scientific/scientific3.jpg" alt="Publication 3">
       <div class="logo-overlay">Universidad Autónoma de Madrid, 2024</div>
     </a>
 
-    <a class="logo-item scientific" href="#" target="_blank">
+    <a class="logo-item scientific" href="https://journals.sagepub.com/doi/full/10.1089/aut.2021.0017" target="_blank">
       <img src="/assets/images/scientific/scientific4.jpg" alt="Publication 4">
       <div class="logo-overlay">University of Edinburgh, 2021</div>
     </a>
 
-    <a class="logo-item scientific" href="#" target="_blank">
+    <a class="logo-item scientific" href="https://www.sciencedirect.com/science/article/pii/S0889159121002336" target="_blank">
       <img src="/assets/images/scientific/scientific5.jpg" alt="Publication 5">
       <div class="logo-overlay">University of Edinburgh, 2021</div>
     </a>
 
-    <a class="logo-item scientific" href="#" target="_blank">
+    <a class="logo-item scientific" href="https://onlinelibrary.wiley.com/doi/10.1002/ca.23394" target="_blank">
       <img src="/assets/images/scientific/scientific6.jpg" alt="Publication 6">
       <div class="logo-overlay">Universidad Autónoma de Madrid, 2020</div>
     </a>
 
-    <a class="logo-item scientific" href="#" target="_blank">
+    <a class="logo-item scientific" href="https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-062117-121036" target="_blank">
       <img src="/assets/images/scientific/scientific7.jpg" alt="Publication 7">
       <div class="logo-overlay">Universidad Autónoma de Madrid, 2019</div>
     </a>
