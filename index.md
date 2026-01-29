@@ -20,13 +20,6 @@ body {
   margin: 0;
 }
 
-/* SECTION LINES */
-.section-separator {
-  width: 80%;
-  margin: 60px auto;
-  border-top: 3px solid var(--accent);
-}
-
 /* BIO IMAGE */
 .bio-img {
   width: 140px;
@@ -159,7 +152,7 @@ p {
 
 /* CONTACT LINK */
 .contact-section a {
-  color: var(--text-dark);
+  color: #333333;
   text-decoration: underline;
   font-weight: 500;
 }
@@ -204,10 +197,8 @@ p {
   </div>
 </div>
 
-<div class="section-separator"></div>
-
 <!-- VISUAL CONTRIBUTIONS -->
-<div class="section">
+<div class="section" style="text-align:center; margin-top:50px; margin-bottom:60px;">
   <h2 class="visual-contributions">Visual Contributions</h2>
 
   <!-- Scientific Publications -->
@@ -248,7 +239,7 @@ p {
   <h3 class="subsection-title">Logos</h3>
   <p>Visual identities and logos created for research teams, projects, and initiatives.</p>
   <div class="logo-grid">
-    <!-- Inspire MSK logo shown fully -->
+    <!-- Inspire MSK logo full -->
     <a class="logo-item rect" href="https://inspiremsk.stir.ac.uk/glossary/" target="_blank">
       <img src="/assets/images/logos/logo2.jpg" alt="University of Stirling">
       <div class="logo-overlay">University of Stirling, 2026</div>
@@ -276,10 +267,8 @@ p {
   </div>
 </div>
 
-<div class="section-separator"></div>
-
 <!-- CONTACT ME -->
-<div class="section" style="text-align:center;">
+<div class="section" style="text-align:center; margin-top:50px; margin-bottom:60px;">
   <h2 class="visual-contributions">Contact Me</h2>
-  <p>Send me an email at <a href="mailto:lorena.jimenezs@ed.ac.uk">lorena.jimenezs@ed.ac.uk</a></p>
+  <p>Send me an email at <a href="mailto:lorena.jimenezs@ed.ac.uk" style="color:#333333;">lorena.jimenezs@ed.ac.uk</a></p>
 </div>
