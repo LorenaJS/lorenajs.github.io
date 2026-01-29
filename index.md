@@ -189,6 +189,12 @@ permalink: /
       <img src="/assets/images/logos/logo1.jpg" alt="University of Edinburgh">
       <div class="logo-overlay">University of Edinburgh, 2024</div>
     </a>
+
+    <a class="logo-item" href="https://www.facebook.com/GlasgowNeuroSociety/posts/the-great-glasgow-brain-fest-this-july-we-have-a-message-for-you-from-the-bna-if/1548628088628053/" target="_blank">
+    <img src="/assets/images/logos/logo3.jpg" alt="British Neuroscience Association">
+    <div class="logo-overlay">British Neuroscience Association, 2020</div>
+    </a>
+  
   </div>
 
   <!-- PRESS RELEASES -->
