@@ -256,9 +256,9 @@ p {
     </a>
   </div>
 
-  <!-- Press Releases -->
-  <h3 class="subsection-title">Press Releases</h3>
-  <p>Illustrations and visual assets developed for institutional communication and public outreach.</p>
+  <!-- Others -->
+  <h3 class="subsection-title">Others</h3>
+  <p>Illustrations and visual assets developed for other contexts i.e., press releases.</p>
   <div class="logo-grid">
     <a class="logo-item press" href="https://asociacioneco.wordpress.com/2019/03/15/como-mujer-el-hecho-de-tener-otro-color-nos-perjudica-dentro-del-propio-genero/" target="_blank">
       <img src="/assets/images/press/press1.jpg" alt="Asociación ECO">
