@@ -176,7 +176,7 @@ permalink: /
   <h3 class="subsection-title">Logos</h3>
 
   <p style="max-width:600px; margin:0 auto 30px auto;">
-    Visual identities and logos created for academic labs and research projects.
+    Visual identities and logos created for research teams, projects and initiatives.
   </p>
 
   <div class="logo-grid">
