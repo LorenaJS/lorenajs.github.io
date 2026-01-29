@@ -29,7 +29,7 @@ permalink: /
   transform: translateY(-2px);
 }
 
-/* LOGO SECTION */
+/* LOGO / CARD GRID */
 .logo-grid {
   display: flex;
   justify-content: center;
@@ -42,6 +42,7 @@ permalink: /
   position: relative;
   width: 150px;
   height: 150px;
+  text-decoration: none;
 }
 
 .logo-item img {
@@ -90,6 +91,7 @@ permalink: /
     Lorena Jiménez Sánchez
   </h1>
 
+  <!-- CONTACT ICONS -->
   <div class="contact-icons">
     <a href="mailto:lorena.jimenezs@ed.ac.uk">
       <img src="/assets/icons/email.svg" alt="Email">
@@ -115,29 +117,54 @@ permalink: /
 
   <h2>Visual Contributions</h2>
 
+  <!-- LOGOS -->
   <h3 style="color:var(--accent); margin-top:30px;">
-    Lab Logo Creations
+    Logos
   </h3>
 
   <p style="max-width:600px; margin:0 auto 30px auto;">
-    Custom logos and visual identities designed for research labs and scientific initiatives.
+    Visual identities and logos created for academic labs and research projects.
   </p>
 
   <div class="logo-grid">
 
-    <a class="logo-item" href="https://richardsonlab.ppls.ed.ac.uk/lab-values/" target="_blank">
-      <img src="/assets/images/logos/logo1.jpg" alt="Richardson Lab logo">
+    <a class="logo-item"
+       href="https://richardsonlab.ppls.ed.ac.uk/lab-values/"
+       target="_blank">
+      <img src="/assets/images/logos/logo1.jpg" alt="University of Edinburgh">
       <div class="logo-overlay">
-        <strong>Richardson Lab logo</strong><br>
-        University of Edinburgh
+        University of Edinburgh, 2024
       </div>
     </a>
 
-    <a class="logo-item" href="https://inspiremsk.stir.ac.uk/glossary/" target="_blank">
-      <img src="/assets/images/logos/logo2.jpg" alt="INSPIRE MSK logo">
+    <a class="logo-item"
+       href="https://inspiremsk.stir.ac.uk/glossary/"
+       target="_blank">
+      <img src="/assets/images/logos/logo2.jpg" alt="University of Stirling">
       <div class="logo-overlay">
-        <strong>INSPIRE MSK project</strong><br>
-        University of Stirling
+        University of Stirling, 2026
+      </div>
+    </a>
+
+  </div>
+
+  <!-- PRESS RELEASES -->
+  <h3 style="color:var(--accent); margin-top:60px;">
+    Press Releases
+  </h3>
+
+  <p style="max-width:600px; margin:0 auto 30px auto;">
+    Illustrations and visual assets developed for institutional communication and public outreach.
+  </p>
+
+  <div class="logo-grid">
+
+    <a class="logo-item"
+       href="https://asociacioneco.wordpress.com/2019/03/15/como-mujer-el-hecho-de-tener-otro-color-nos-perjudica-dentro-del-propio-genero/"
+       target="_blank">
+      <img src="/assets/images/press/press1.jpg" alt="Asociación ECO">
+      <div class="logo-overlay">
+        Asociación ECO, 2019
       </div>
     </a>
 
