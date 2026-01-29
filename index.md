@@ -40,8 +40,8 @@ permalink: /
 
 .logo-item {
   position: relative;
-  width: 160px;  /* uniform card width */
-  height: 160px; /* uniform card height */
+  width: 160px;  
+  height: 160px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,8 +56,9 @@ permalink: /
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-/* Circular press release images */
-.logo-item.press img {
+/* Circular images: press releases & scientific publications */
+.logo-item.press img,
+.logo-item.scientific img {
   border-radius: 50%;
   object-fit: cover;
   width: 140px;
@@ -77,7 +78,7 @@ permalink: /
   padding: 12px;
   font-size: 0.85rem;
   line-height: 1.3;
-  color: #333;  /* dark gray */
+  color: #333;  
   opacity: 0;
   transition: opacity 0.3s ease;
   box-shadow: 0 8px 18px rgba(0,0,0,0.15);
@@ -135,37 +136,37 @@ permalink: /
   </p>
 
   <div class="logo-grid">
-    <a class="logo-item" href="#" target="_blank">
+    <a class="logo-item scientific" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific1.jpg" alt="Publication 1">
       <div class="logo-overlay">University of Edinburgh, 2025</div>
     </a>
 
-    <a class="logo-item" href="#" target="_blank">
+    <a class="logo-item scientific" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific2.jpg" alt="Publication 2">
       <div class="logo-overlay">University of Edinburgh, 2024</div>
     </a>
 
-    <a class="logo-item" href="#" target="_blank">
+    <a class="logo-item scientific" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific3.jpg" alt="Publication 3">
       <div class="logo-overlay">Universidad Autónoma de Madrid, 2024</div>
     </a>
 
-    <a class="logo-item" href="#" target="_blank">
+    <a class="logo-item scientific" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific4.jpg" alt="Publication 4">
       <div class="logo-overlay">University of Edinburgh, 2021</div>
     </a>
 
-    <a class="logo-item" href="#" target="_blank">
+    <a class="logo-item scientific" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific5.jpg" alt="Publication 5">
       <div class="logo-overlay">University of Edinburgh, 2021</div>
     </a>
 
-    <a class="logo-item" href="#" target="_blank">
+    <a class="logo-item scientific" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific6.jpg" alt="Publication 6">
       <div class="logo-overlay">Universidad Autónoma de Madrid, 2020</div>
     </a>
 
-    <a class="logo-item" href="#" target="_blank">
+    <a class="logo-item scientific" href="#" target="_blank">
       <img src="/assets/images/scientific/scientific7.jpg" alt="Publication 7">
       <div class="logo-overlay">Universidad Autónoma de Madrid, 2019</div>
     </a>
