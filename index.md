@@ -6,7 +6,7 @@ permalink: /
 
 <style>
 :root {
-  --accent: #3FA7A0;
+  --accent: #3FA7A0; /* teal-sage */
 }
 
 /* CONTACT ICONS */
@@ -48,9 +48,14 @@ permalink: /
 .logo-item img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  border-radius: 10px;
+  object-fit: cover;
+  border-radius: 10px; /* default for logos */
   transition: opacity 0.3s ease;
+}
+
+/* Make press release images circular */
+.logo-item.press img {
+  border-radius: 50%;
 }
 
 /* OVERLAY TEXT */
@@ -66,6 +71,7 @@ permalink: /
   padding: 12px;
   font-size: 0.85rem;
   line-height: 1.3;
+  color: #333333;  /* dark gray overlay text */
   opacity: 0;
   transition: opacity 0.3s ease;
   box-shadow: 0 8px 18px rgba(0,0,0,0.15);
@@ -77,6 +83,16 @@ permalink: /
 
 .logo-item:hover .logo-overlay {
   opacity: 1;
+}
+
+/* Section heading colors */
+.visual-contributions {
+  color: var(--accent);
+}
+
+.subsection-title {
+  color: black;
+  margin-top: 40px;
 }
 </style>
 
@@ -91,7 +107,7 @@ permalink: /
     Lorena Jiménez Sánchez
   </h1>
 
-  <!-- CONTACT ICONS -->
+  <!-- CONTACT ICONS BELOW BIO TEXT -->
   <div class="contact-icons">
     <a href="mailto:lorena.jimenezs@ed.ac.uk">
       <img src="/assets/icons/email.svg" alt="Email">
@@ -115,12 +131,10 @@ permalink: /
 <!-- VISUAL CONTRIBUTIONS -->
 <div style="text-align:center; margin-top:50px; margin-bottom:60px;">
 
-  <h2>Visual Contributions</h2>
+  <h2 class="visual-contributions">Visual Contributions</h2>
 
   <!-- LOGOS -->
-  <h3 style="color:var(--accent); margin-top:30px;">
-    Logos
-  </h3>
+  <h3 class="subsection-title">Logos</h3>
 
   <p style="max-width:600px; margin:0 auto 30px auto;">
     Visual identities and logos created for academic labs and research projects.
@@ -133,7 +147,7 @@ permalink: /
        target="_blank">
       <img src="/assets/images/logos/logo1.jpg" alt="University of Edinburgh">
       <div class="logo-overlay">
-        University of Edinburgh, 2024
+        University of Edinburgh
       </div>
     </a>
 
@@ -142,16 +156,14 @@ permalink: /
        target="_blank">
       <img src="/assets/images/logos/logo2.jpg" alt="University of Stirling">
       <div class="logo-overlay">
-        University of Stirling, 2026
+        University of Stirling
       </div>
     </a>
 
   </div>
 
   <!-- PRESS RELEASES -->
-  <h3 style="color:var(--accent); margin-top:60px;">
-    Press Releases
-  </h3>
+  <h3 class="subsection-title">Press Releases</h3>
 
   <p style="max-width:600px; margin:0 auto 30px auto;">
     Illustrations and visual assets developed for institutional communication and public outreach.
@@ -159,12 +171,12 @@ permalink: /
 
   <div class="logo-grid">
 
-    <a class="logo-item"
+    <a class="logo-item press"
        href="https://asociacioneco.wordpress.com/2019/03/15/como-mujer-el-hecho-de-tener-otro-color-nos-perjudica-dentro-del-propio-genero/"
        target="_blank">
       <img src="/assets/images/press/press1.jpg" alt="Asociación ECO">
       <div class="logo-overlay">
-        Asociación ECO, 2019
+        Asociación ECO
       </div>
     </a>
 
