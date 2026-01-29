@@ -9,7 +9,6 @@ permalink: /
   --accent: #3FA7A0; /* teal-sage */
   --text-dark: #333333;
   --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --section-bg: #f5fdfc; /* light pastel teal */
 }
 
 /* BODY FONT */
@@ -21,17 +20,11 @@ body {
   margin: 0;
 }
 
-/* CONTAINER SECTIONS */
-.section {
-  max-width: 960px;
-  margin: 0 auto 60px auto;
-  padding: 40px 20px;
-  border-radius: 12px;
-}
-
-/* BIO & CONTACT SECTIONS BACKGROUND */
-.bio-section, .contact-section {
-  background-color: var(--section-bg);
+/* SECTION LINES */
+.section-separator {
+  width: 80%;
+  margin: 60px auto;
+  border-top: 3px solid var(--accent);
 }
 
 /* BIO IMAGE */
@@ -120,12 +113,21 @@ p {
   transition: transform 0.3s ease;
 }
 
-.logo-item img {
+/* Circular logos: press & scientific */
+.logo-item.press img,
+.logo-item.scientific img {
   width: 140px;
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Rectangular logos: keep full image */
+.logo-item.rect img {
+  width: 140px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
 }
 
 /* Hover overlay */
@@ -180,14 +182,29 @@ p {
 </style>
 
 <!-- BIO -->
-<div class="section bio-section" style="text-align:center; margin-top:40px;">
+<div style="text-align:center; margin-top:40px;">
   <img class="bio-img" src="/assets/images/bio/bio.jpg" alt="Lorena Jiménez Sánchez" />
   <h1 style="color:var(--accent); margin-bottom:10px;">Lorena Jiménez Sánchez</h1>
   <p class="bio-text">
     Researcher and visual storyteller with a background in neuroscience (MSc, PhD). 
     Passionate about transforming complex ideas into visually engaging, accessible content.
   </p>
+
+  <!-- CONTACT ICONS BELOW BIO -->
+  <div class="contact-icons">
+    <a href="mailto:lorena.jimenezs@ed.ac.uk">
+      <img src="/assets/icons/email.svg" alt="Email">
+    </a>
+    <a href="https://github.com/lorenajs" target="_blank">
+      <img src="/assets/icons/github.svg" alt="GitHub">
+    </a>
+    <a href="https://www.researchgate.net/profile/Lorena-Jimenez-Sanchez" target="_blank">
+      <img src="/assets/icons/researchgate.svg" alt="ResearchGate">
+    </a>
+  </div>
 </div>
+
+<div class="section-separator"></div>
 
 <!-- VISUAL CONTRIBUTIONS -->
 <div class="section">
@@ -231,14 +248,17 @@ p {
   <h3 class="subsection-title">Logos</h3>
   <p>Visual identities and logos created for research teams, projects, and initiatives.</p>
   <div class="logo-grid">
-    <a class="logo-item" href="https://inspiremsk.stir.ac.uk/glossary/" target="_blank">
+    <!-- Inspire MSK logo shown fully -->
+    <a class="logo-item rect" href="https://inspiremsk.stir.ac.uk/glossary/" target="_blank">
       <img src="/assets/images/logos/logo2.jpg" alt="University of Stirling">
       <div class="logo-overlay">University of Stirling, 2026</div>
     </a>
+
     <a class="logo-item" href="https://richardsonlab.ppls.ed.ac.uk/lab-values/" target="_blank">
       <img src="/assets/images/logos/logo1.jpg" alt="University of Edinburgh">
       <div class="logo-overlay">University of Edinburgh, 2024</div>
     </a>
+
     <a class="logo-item" href="https://www.facebook.com/GlasgowNeuroSociety/posts/the-great-glasgow-brain-fest-this-july-we-have-a-message-for-you-from-the-bna-if/1548628088628053/" target="_blank">
       <img src="/assets/images/logos/logo3.png" alt="British Neuroscience Association">
       <div class="logo-overlay">British Neuroscience Association, 2020</div>
@@ -256,8 +276,10 @@ p {
   </div>
 </div>
 
+<div class="section-separator"></div>
+
 <!-- CONTACT ME -->
-<div class="section contact-section">
+<div class="section" style="text-align:center;">
   <h2 class="visual-contributions">Contact Me</h2>
   <p>Send me an email at <a href="mailto:lorena.jimenezs@ed.ac.uk">lorena.jimenezs@ed.ac.uk</a></p>
 </div>
