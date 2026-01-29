@@ -87,7 +87,7 @@ permalink: /
 
 /* Section heading colors */
 .visual-contributions {
-  color: var(--accent);
+  color: var(--accent); /* sage */
 }
 
 .subsection-title {
@@ -107,6 +107,12 @@ permalink: /
     Lorena Jiménez Sánchez
   </h1>
 
+  <p style="max-width:600px; margin:0 auto;">
+    Researcher and visual storyteller with a background in neuroscience (MSc, PhD).
+    Passionate about transforming complex ideas into visually engaging, accessible
+    content that connects science and people.
+  </p>
+
   <!-- CONTACT ICONS BELOW BIO TEXT -->
   <div class="contact-icons">
     <a href="mailto:lorena.jimenezs@ed.ac.uk">
@@ -119,12 +125,6 @@ permalink: /
       <img src="/assets/icons/researchgate.svg" alt="ResearchGate">
     </a>
   </div>
-
-  <p style="max-width:600px; margin:0 auto;">
-    Researcher and visual storyteller with a background in neuroscience (MSc, PhD).
-    Passionate about transforming complex ideas into visually engaging, accessible
-    content that connects science and people.
-  </p>
 
 </div>
 
