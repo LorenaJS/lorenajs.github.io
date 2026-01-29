@@ -41,14 +41,15 @@ permalink: /
 .logo-item {
   position: relative;
   width: 150px;
-  height: 150px;
+  height: 180px; /* taller container to fit non-square logos */
   text-decoration: none;
 }
 
 .logo-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  display: block;
   border-radius: 10px; /* default for logos */
   transition: opacity 0.3s ease;
 }
@@ -56,6 +57,7 @@ permalink: /
 /* Make press release images circular */
 .logo-item.press img {
   border-radius: 50%;
+  object-fit: cover;
 }
 
 /* OVERLAY TEXT */
@@ -143,20 +145,20 @@ permalink: /
   <div class="logo-grid">
 
     <a class="logo-item"
-       href="https://richardsonlab.ppls.ed.ac.uk/lab-values/"
-       target="_blank">
-      <img src="/assets/images/logos/logo1.jpg" alt="University of Edinburgh">
-      <div class="logo-overlay">
-        University of Edinburgh
-      </div>
-    </a>
-
-    <a class="logo-item"
        href="https://inspiremsk.stir.ac.uk/glossary/"
        target="_blank">
       <img src="/assets/images/logos/logo2.jpg" alt="University of Stirling">
       <div class="logo-overlay">
-        University of Stirling
+        University of Stirling, 2026
+      </div>
+    </a>
+    
+    <a class="logo-item"
+       href="https://richardsonlab.ppls.ed.ac.uk/lab-values/"
+       target="_blank">
+      <img src="/assets/images/logos/logo1.jpg" alt="University of Edinburgh">
+      <div class="logo-overlay">
+        University of Edinburgh, 2024
       </div>
     </a>
 
@@ -176,7 +178,7 @@ permalink: /
        target="_blank">
       <img src="/assets/images/press/press1.jpg" alt="Asociación ECO">
       <div class="logo-overlay">
-        Asociación ECO
+        Asociación ECO, 2019
       </div>
     </a>
 
