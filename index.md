@@ -5,13 +5,16 @@ permalink: /
 ---
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Script:wght@400;500&display=swap');
+
 :root {
-  --accent: #3FA7A0; /* teal-sage */
+  --accent: #3FA7A0;
   --text-dark: #333333;
   --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-script: 'Playfair Script', cursive;
 }
 
-/* BODY FONT */
+/* BODY */
 body {
   font-family: var(--font-sans);
   line-height: 1.6;
@@ -27,11 +30,16 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
-  transition: transform 0.3s ease;
 }
 
-.bio-img:hover {
-  transform: scale(1.05);
+/* NAME TITLE */
+.name-title {
+  font-family: var(--font-script);
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: var(--accent);
+  margin-bottom: 10px;
 }
 
 /* BIO TEXT */
@@ -42,7 +50,7 @@ body {
   text-align: center;
 }
 
-/* HEADINGS */
+/* SECTION HEADINGS */
 .visual-contributions {
   color: var(--accent);
   font-size: 2.2rem;
@@ -103,10 +111,9 @@ p {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  transition: transform 0.3s ease;
 }
 
-/* Circular logos: press & scientific */
+/* Circular logos */
 .logo-item.press img,
 .logo-item.scientific img {
   width: 140px;
@@ -115,7 +122,7 @@ p {
   object-fit: cover;
 }
 
-/* Rectangular logos: keep full image */
+/* Rectangular logos */
 .logo-item.rect img {
   width: 140px;
   height: auto;
@@ -143,7 +150,6 @@ p {
 
 .logo-item:hover img {
   opacity: 0;
-  transform: scale(1.05);
 }
 
 .logo-item:hover .logo-overlay {
@@ -157,7 +163,12 @@ p {
   font-weight: 500;
 }
 
+/* MOBILE */
 @media (max-width: 500px) {
+  .name-title {
+    font-size: 2.3rem;
+  }
+
   .logo-grid {
     gap: 30px;
   }
@@ -166,24 +177,19 @@ p {
     width: 120px;
     height: 120px;
   }
-
-  .logo-item img {
-    width: 110px;
-    height: 110px;
-  }
 }
 </style>
 
 <!-- BIO -->
 <div style="text-align:center; margin-top:40px;">
   <img class="bio-img" src="/assets/images/bio/bio.jpg" alt="Lorena Jiménez Sánchez" />
-  <h1 style="color:var(--accent); margin-bottom:10px;">Lorena Jiménez Sánchez</h1>
+  <h1 class="name-title">Lorena Jiménez Sánchez</h1>
+
   <p class="bio-text">
-    Researcher and visual storyteller with a background in neuroscience (MSc, PhD). 
+    Researcher and visual storyteller with a background in neuroscience (MSc, PhD).
     Passionate about transforming complex ideas into visually engaging, accessible content.
   </p>
 
-  <!-- CONTACT ICONS BELOW BIO -->
   <div class="contact-icons">
     <a href="mailto:lorena.jimenezs@ed.ac.uk">
       <img src="/assets/icons/email.svg" alt="Email">
@@ -200,78 +206,13 @@ p {
   </div>
 </div>
 
-<!-- VISUAL CONTRIBUTIONS -->
-<div class="section" style="text-align:center; margin-top:50px; margin-bottom:60px;">
-  <h2 class="visual-contributions">Visual Contributions</h2>
-
-  <!-- Scientific Publications -->
-  <h3 class="subsection-title">Scientific Publications</h3>
-  <p>Visual figures and illustrations produced for scientific articles and journals.</p>
-  <div class="logo-grid">
-    <a class="logo-item scientific" href="https://kids.frontiersin.org/articles/10.3389/frym.2025.1508144" target="_blank">
-      <img src="/assets/images/scientific/scientific1.jpg" alt="Publication 1">
-      <div class="logo-overlay">University of Edinburgh, 2025</div>
-    </a>
-    <a class="logo-item scientific" href="https://www.sciencedirect.com/science/article/pii/S1878929324000483" target="_blank">
-      <img src="/assets/images/scientific/scientific2.jpg" alt="Publication 2">
-      <div class="logo-overlay">University of Edinburgh, 2024</div>
-    </a>
-    <a class="logo-item scientific" href="https://link.springer.com/article/10.1007/s00429-023-02725-9" target="_blank">
-      <img src="/assets/images/scientific/scientific3.jpg" alt="Publication 3">
-      <div class="logo-overlay">Universidad Autónoma de Madrid, 2024</div>
-    </a>
-    <a class="logo-item scientific" href="https://journals.sagepub.com/doi/full/10.1089/aut.2021.0017" target="_blank">
-      <img src="/assets/images/scientific/scientific4.png" alt="Publication 4">
-      <div class="logo-overlay">University of Edinburgh, 2021</div>
-    </a>
-    <a class="logo-item scientific" href="https://www.sciencedirect.com/science/article/pii/S0889159121002336" target="_blank">
-      <img src="/assets/images/scientific/scientific5.png" alt="Publication 5">
-      <div class="logo-overlay">University of Edinburgh, 2021</div>
-    </a>
-    <a class="logo-item scientific" href="https://onlinelibrary.wiley.com/doi/10.1002/ca.23394" target="_blank">
-      <img src="/assets/images/scientific/scientific6.png" alt="Publication 6">
-      <div class="logo-overlay">Universidad Autónoma de Madrid, 2020</div>
-    </a>
-    <a class="logo-item scientific" href="https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-062117-121036" target="_blank">
-      <img src="/assets/images/scientific/scientific7.jpg" alt="Publication 7">
-      <div class="logo-overlay">Universidad Autónoma de Madrid, 2019</div>
-    </a>
-  </div>
-
-  <!-- Logos -->
-  <h3 class="subsection-title">Logos</h3>
-  <p>Visual identities and logos created for research teams, projects, and initiatives.</p>
-  <div class="logo-grid">
-    <!-- Inspire MSK logo full -->
-    <a class="logo-item rect" href="https://inspiremsk.stir.ac.uk/glossary/" target="_blank">
-      <img src="/assets/images/logos/logo2.jpg" alt="University of Stirling">
-      <div class="logo-overlay">University of Stirling, 2026</div>
-    </a>
-
-    <a class="logo-item" href="https://richardsonlab.ppls.ed.ac.uk/lab-values/" target="_blank">
-      <img src="/assets/images/logos/logo1.jpg" alt="University of Edinburgh">
-      <div class="logo-overlay">University of Edinburgh, 2024</div>
-    </a>
-
-    <a class="logo-item" href="https://www.facebook.com/GlasgowNeuroSociety/posts/the-great-glasgow-brain-fest-this-july-we-have-a-message-for-you-from-the-bna-if/1548628088628053/" target="_blank">
-      <img src="/assets/images/logos/logo3.png" alt="British Neuroscience Association">
-      <div class="logo-overlay">British Neuroscience Association, 2020</div>
-    </a>
-  </div>
-
-  <!-- Others -->
-  <h3 class="subsection-title">Others</h3>
-  <p>Illustrations and visual assets developed for other contexts i.e., press releases.</p>
-  <div class="logo-grid">
-    <a class="logo-item press" href="https://asociacioneco.wordpress.com/2019/03/15/como-mujer-el-hecho-de-tener-otro-color-nos-perjudica-dentro-del-propio-genero/" target="_blank">
-      <img src="/assets/images/press/press1.jpg" alt="Asociación ECO">
-      <div class="logo-overlay">Asociación ECO, 2019</div>
-    </a>
-  </div>
-</div>
-
 <!-- CONTACT ME -->
 <div class="section" style="text-align:center; margin-top:50px; margin-bottom:60px;">
   <h2 class="visual-contributions">Contact Me</h2>
-  <p>Send me an email at <a href="mailto:lorena.jimenezs@ed.ac.uk" style="color:#333333;">lorena.jimenezs@ed.ac.uk</a></p>
+  <p>
+    Send me an email at
+    <a href="mailto:lorena.jimenezs@ed.ac.uk" style="color:#333333;">
+      lorena.jimenezs@ed.ac.uk
+    </a>
+  </p>
 </div>
