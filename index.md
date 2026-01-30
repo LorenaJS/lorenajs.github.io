@@ -194,7 +194,7 @@ p {
     <a href="https://www.researchgate.net/profile/Lorena-Jimenez-Sanchez" target="_blank">
       <img src="/assets/icons/researchgate.svg" alt="ResearchGate">
     </a>
-    <a href="https://www.researchgate.net/profile/Lorena-Jimenez-Sanchez" target="_blank">
+    <a href="https://www.linkedin.com/in/lorena-jim%C3%A9nez/" target="_blank">
       <img src="/assets/icons/linkedin.svg" alt="LinkedIn">
     </a>
   </div>
@@ -229,11 +229,11 @@ p {
       <div class="logo-overlay">University of Edinburgh, 2021</div>
     </a>
     <a class="logo-item scientific" href="https://onlinelibrary.wiley.com/doi/10.1002/ca.23394" target="_blank">
-      <img src="/assets/images/scientific/scientific6.jpg" alt="Publication 6">
+      <img src="/assets/images/scientific/scientific6.png" alt="Publication 6">
       <div class="logo-overlay">Universidad Autónoma de Madrid, 2020</div>
     </a>
     <a class="logo-item scientific" href="https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-062117-121036" target="_blank">
-      <img src="/assets/images/scientific/scientific7.png" alt="Publication 7">
+      <img src="/assets/images/scientific/scientific7.jpg" alt="Publication 7">
       <div class="logo-overlay">Universidad Autónoma de Madrid, 2019</div>
     </a>
   </div>
