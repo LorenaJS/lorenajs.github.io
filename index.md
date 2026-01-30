@@ -5,13 +5,13 @@ permalink: /
 ---
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 :root {
   --accent: #3FA7A0;
   --text-dark: #333333;
   --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-written: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-written: 'Parisienne', cursive;
 }
 
 body {
@@ -32,10 +32,9 @@ body {
 
 .name-title {
   font-family: var(--font-written);
-  font-size: 2.7rem;
-  font-style: italic;
-  font-weight: 600;
-  letter-spacing: 0.3px;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
   color: var(--accent);
   margin-bottom: 10px;
 }
@@ -100,7 +99,7 @@ body {
   text-decoration: none;
 }
 
-/* CIRCULAR IMAGES */
+/* CIRCULAR */
 .logo-item.scientific img,
 .logo-item.press img {
   width: 140px;
@@ -109,7 +108,7 @@ body {
   object-fit: cover;
 }
 
-/* RECTANGULAR LOGOS (Inspire MSK safe) */
+/* RECTANGULAR */
 .logo-item.rect img {
   width: 140px;
   height: auto;
@@ -169,18 +168,48 @@ body {
 <div style="text-align:center; margin-top:50px; margin-bottom:60px;">
   <h2 class="visual-contributions">Visual Contributions</h2>
 
+  <!-- SCIENTIFIC -->
   <h3 class="subsection-title">Scientific Publications</h3>
   <p>Figures and illustrations produced for scientific articles and journals.</p>
 
   <div class="logo-grid">
-    <!-- scientific logos unchanged -->
     <a class="logo-item scientific" href="https://kids.frontiersin.org/articles/10.3389/frym.2025.1508144" target="_blank">
       <img src="/assets/images/scientific/scientific1.jpg">
       <div class="logo-overlay">University of Edinburgh, 2025</div>
     </a>
-    <!-- remaining scientific items stay exactly as you had them -->
+
+    <a class="logo-item scientific" href="https://www.sciencedirect.com/science/article/pii/S1878929324000483" target="_blank">
+      <img src="/assets/images/scientific/scientific2.jpg">
+      <div class="logo-overlay">University of Edinburgh, 2024</div>
+    </a>
+
+    <a class="logo-item scientific" href="https://link.springer.com/article/10.1007/s00429-023-02725-9" target="_blank">
+      <img src="/assets/images/scientific/scientific3.jpg">
+      <div class="logo-overlay">Universidad Autónoma de Madrid, 2024</div>
+    </a>
+
+    <a class="logo-item scientific" href="https://journals.sagepub.com/doi/full/10.1089/aut.2021.0017" target="_blank">
+      <img src="/assets/images/scientific/scientific4.png">
+      <div class="logo-overlay">University of Edinburgh, 2021</div>
+    </a>
+
+    <a class="logo-item scientific" href="https://www.sciencedirect.com/science/article/pii/S0889159121002336" target="_blank">
+      <img src="/assets/images/scientific/scientific5.png">
+      <div class="logo-overlay">University of Edinburgh, 2021</div>
+    </a>
+
+    <a class="logo-item scientific" href="https://onlinelibrary.wiley.com/doi/10.1002/ca.23394" target="_blank">
+      <img src="/assets/images/scientific/scientific6.png">
+      <div class="logo-overlay">Universidad Autónoma de Madrid, 2020</div>
+    </a>
+
+    <a class="logo-item scientific" href="https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-062117-121036" target="_blank">
+      <img src="/assets/images/scientific/scientific7.jpg">
+      <div class="logo-overlay">Universidad Autónoma de Madrid, 2019</div>
+    </a>
   </div>
 
+  <!-- LOGOS -->
   <h3 class="subsection-title">Logos</h3>
   <p>Visual identities and logos created for research teams, projects, and initiatives.</p>
 
@@ -189,16 +218,19 @@ body {
       <img src="/assets/images/logos/logo2.jpg">
       <div class="logo-overlay">University of Stirling, 2026</div>
     </a>
+
     <a class="logo-item" href="https://richardsonlab.ppls.ed.ac.uk/lab-values/" target="_blank">
       <img src="/assets/images/logos/logo1.jpg">
       <div class="logo-overlay">University of Edinburgh, 2024</div>
     </a>
+
     <a class="logo-item" href="https://www.facebook.com/GlasgowNeuroSociety/posts/the-great-glasgow-brain-fest-this-july-we-have-a-message-for-you-from-the-bna-if/1548628088628053/" target="_blank">
       <img src="/assets/images/logos/logo3.png">
       <div class="logo-overlay">British Neuroscience Association, 2020</div>
     </a>
   </div>
 
+  <!-- OTHERS -->
   <h3 class="subsection-title">Others</h3>
   <p>Illustrations and visual assets developed for other contexts.</p>
 
