@@ -221,11 +221,11 @@ p {
       <div class="logo-overlay">Universidad Autónoma de Madrid, 2024</div>
     </a>
     <a class="logo-item scientific" href="https://journals.sagepub.com/doi/full/10.1089/aut.2021.0017" target="_blank">
-      <img src="/assets/images/scientific/scientific4.jpg" alt="Publication 4">
+      <img src="/assets/images/scientific/scientific4.png" alt="Publication 4">
       <div class="logo-overlay">University of Edinburgh, 2021</div>
     </a>
     <a class="logo-item scientific" href="https://www.sciencedirect.com/science/article/pii/S0889159121002336" target="_blank">
-      <img src="/assets/images/scientific/scientific5.jpg" alt="Publication 5">
+      <img src="/assets/images/scientific/scientific5.png" alt="Publication 5">
       <div class="logo-overlay">University of Edinburgh, 2021</div>
     </a>
     <a class="logo-item scientific" href="https://onlinelibrary.wiley.com/doi/10.1002/ca.23394" target="_blank">
@@ -233,7 +233,7 @@ p {
       <div class="logo-overlay">Universidad Autónoma de Madrid, 2020</div>
     </a>
     <a class="logo-item scientific" href="https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-062117-121036" target="_blank">
-      <img src="/assets/images/scientific/scientific7.jpg" alt="Publication 7">
+      <img src="/assets/images/scientific/scientific7.png" alt="Publication 7">
       <div class="logo-overlay">Universidad Autónoma de Madrid, 2019</div>
     </a>
   </div>
