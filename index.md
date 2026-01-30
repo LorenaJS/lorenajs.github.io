@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap');
 
 :root {
   --accent: #3FA7A0;
