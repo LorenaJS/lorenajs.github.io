@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.google.com/specimen/Sacramento');
 
 :root {
   --accent: #3FA7A0;
