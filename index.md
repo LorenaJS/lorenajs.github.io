@@ -194,7 +194,7 @@ p {
     <a href="https://www.researchgate.net/profile/Lorena-Jimenez-Sanchez" target="_blank">
       <img src="/assets/icons/researchgate.svg" alt="ResearchGate">
     </a>
-    <a href="https://www.linkedin.com/in/lorena-jim%C3%A9nez/" target="_blank">
+    <a href="https://uk.linkedin.com/in/lorena-jim%C3%A9nez" target="_blank">
       <img src="/assets/icons/linkedin.svg" alt="LinkedIn">
     </a>
   </div>
