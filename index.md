@@ -5,13 +5,10 @@ permalink: /
 ---
 
 <style>
-@import url('https://fonts.google.com/specimen/Sacramento');
-
 :root {
   --accent: #3FA7A0;
   --text-dark: #333333;
   --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-written: 'Parisienne', cursive;
 }
 
 body {
@@ -31,10 +28,10 @@ body {
 }
 
 .name-title {
-  font-family: var(--font-written);
-  font-size: 3rem;
-  font-weight: 400;
-  letter-spacing: 0.5px;
+  font-family: var(--font-sans); /* SAME AS BODY */
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
   color: var(--accent);
   margin-bottom: 10px;
 }
@@ -168,7 +165,6 @@ body {
 <div style="text-align:center; margin-top:50px; margin-bottom:60px;">
   <h2 class="visual-contributions">Visual Contributions</h2>
 
-  <!-- SCIENTIFIC -->
   <h3 class="subsection-title">Scientific Publications</h3>
   <p>Figures and illustrations produced for scientific articles and journals.</p>
 
@@ -209,7 +205,6 @@ body {
     </a>
   </div>
 
-  <!-- LOGOS -->
   <h3 class="subsection-title">Logos</h3>
   <p>Visual identities and logos created for research teams, projects, and initiatives.</p>
 
@@ -230,7 +225,6 @@ body {
     </a>
   </div>
 
-  <!-- OTHERS -->
   <h3 class="subsection-title">Others</h3>
   <p>Illustrations and visual assets developed for other contexts.</p>
 
