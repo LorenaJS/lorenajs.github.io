@@ -169,6 +169,12 @@ body {
   <p>Figures and illustrations produced for scientific articles and journals.</p>
 
   <div class="logo-grid">
+    <a class="logo-item scientific" href="https://www.sciencedirect.com/science/article/pii/S1878929326001076" target="_blank">
+      <img src="/assets/images/scientific/scientific0.jpg">
+      <div class="logo-overlay">University of Edinburgh, 2026</div>
+    </a>
+    
+    <div class="logo-grid">
     <a class="logo-item scientific" href="https://kids.frontiersin.org/articles/10.3389/frym.2025.1508144" target="_blank">
       <img src="/assets/images/scientific/scientific1.jpg">
       <div class="logo-overlay">University of Edinburgh, 2025</div>
