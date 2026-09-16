@@ -170,7 +170,7 @@ body {
 
   <div class="logo-grid">
     <a class="logo-item scientific" href="https://www.sciencedirect.com/science/article/pii/S1878929326001076" target="_blank">
-      <img src="/assets/images/scientific/scientific0.jpg">
+      <img src="/assets/images/scientific/scientific0.png">
       <div class="logo-overlay">University of Edinburgh, 2026</div>
     </a>
     
